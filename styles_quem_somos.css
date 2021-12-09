@@ -1,5 +1,9 @@
+body {
+    background-color: #5f00d228;
+}
+
 .principal {
-    background: linear-gradient(41.72deg, #5D00D2 0.82%, #FF6633 77.33%);
+    background: linear-gradient(41.72deg, #5D00D2 0.82%, #FF6633 80.33%);
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
     height: 200px;
@@ -8,7 +12,7 @@
 
 .logo-freelando {
     padding-right: 20px;
-    width: 300px;
+    width: 250px;
 
 }
 
@@ -19,14 +23,14 @@
 .card-profissional {
     margin: 40px;
     text-align: center;
-    background-color: #5f00d21a;
+    background-color: #fff;
     border-radius: 10px ;
-    border: solid 2px #5D00D2;
+    border: solid 2px #FF6633;
+    box-shadow: 0px 0px 10px 0px #5a5a5a99;
 }
 
 .img {
-    
-    margin: 6px 0px 8px 0px;
+    margin: 10px 0px 8px 0px;
     border: solid 6px #FF6633;
     border-radius: 100px;
 }
@@ -45,10 +49,14 @@
     text-align: justify;
 }
 
+.card-text:last-child {
+    margin-bottom: 10px;
+}
+
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 h2 {
@@ -58,7 +66,12 @@ h2 {
 }
 
 
+@media only screen and (max-width: 500px) {
 
+    .logo-freelando {
+        width: 230px;
+    }
+}
 
 @media only screen and (max-width: 400px) {
     
@@ -73,7 +86,7 @@ h2 {
     }
 
     .logo-freelando {
-        width: 250px;
+        width: 175px;
     }
 
     h1 {
@@ -84,6 +97,10 @@ h2 {
 
 @media only screen and (max-width: 350px) {
 
+    .logo-freelando {
+        width: 180px;
+    }
+
     h1 {
         font-size: 12px;
     }
@@ -93,13 +110,40 @@ h2 {
 @media only screen and (max-width: 295px) {
     
     .logo-freelando {
-        width: 230px;
+        width: 150px;
     }
 
     h1 {
         font-size: 12px;
     }
 }
+
+/* SCROLLBAR CUSTOMIZADO*/
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 5px;
+    background-color: transparent;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: #ff6d3c;
+    border-radius: 10px;
+}
+
 
 
 
