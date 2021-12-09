@@ -1,0 +1,105 @@
+.principal {
+    background: linear-gradient(41.72deg, #5D00D2 0.82%, #FF6633 77.33%);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    height: 200px;
+    box-shadow: 0px 0px 10px 0px #30303099;
+}
+
+.logo-freelando {
+    padding-right: 20px;
+    width: 300px;
+
+}
+
+.texto-principal-posicao {
+    margin-top: 20px;
+}
+
+.card-profissional {
+    margin: 40px;
+    text-align: center;
+    background-color: #5f00d21a;
+    border-radius: 10px ;
+    border: solid 2px #5D00D2;
+}
+
+.img {
+    
+    margin: 6px 0px 8px 0px;
+    border: solid 6px #FF6633;
+    border-radius: 100px;
+}
+
+.card-subtitle {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px 18px 0px 18px;
+    margin-top: 7px;
+    text-align: justify;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+
+
+
+@media only screen and (max-width: 400px) {
+    
+    .container {
+        margin: 0;
+    }
+
+    .principal {
+        padding: 0;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .logo-freelando {
+        width: 250px;
+    }
+
+    h1 {
+        font-size: 14px;
+        margin-top: 15px;
+    }   
+}
+
+@media only screen and (max-width: 350px) {
+
+    h1 {
+        font-size: 12px;
+    }
+}
+
+
+@media only screen and (max-width: 295px) {
+    
+    .logo-freelando {
+        width: 230px;
+    }
+
+    h1 {
+        font-size: 12px;
+    }
+}
+
+
+
