@@ -4,6 +4,7 @@ body {
     background-position: center;
     background-size: cover;
     height: 200vh;
+    overflow-x: hidden;
 }
 
 /* menu */
@@ -20,6 +21,10 @@ body {
 
 .navbar {
     margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .navbar-nav .nav-item .nav-link {
@@ -72,7 +77,7 @@ body {
         height: 40vh;
     }
     body {
-        background-image: url(../medias/img/fundo.png);
+        background-image: url(medias/img/fundo.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -351,7 +356,7 @@ body {
 /* terceiro conteúdo */
 
 .terceiro-conteudo {
-    background-image: url(../medias/img/desktop\ Hero\ Light\ 9.png);
+    background-image: url(medias/img/desktop\ Hero\ Light\ 9.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -428,6 +433,20 @@ body {
         align-items: center;
     }
     .botao{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (max-width: 991px){
+    .conteudo-quarto{
+        display: flex;
+        align-items: center;
+    }
+    .botao{
+        display: flex;
+        justify-content: center;
+    }
+    .logo{
         display: flex;
         justify-content: center;
     }
@@ -589,7 +608,7 @@ footer p{
     }
 
     .btnComecar {
-        margin-left: 255px;
+        /* margin-left: 255px; */
     }
 
     .texto-1 {
@@ -619,7 +638,7 @@ footer p{
     }
 
     .btnComecar {
-        margin-left: 145px;
+        /* margin-left: 145px; */
     }
 
     .primeiro-conteudo {
@@ -647,7 +666,7 @@ footer p{
     }
 
     .btnComecar {
-        margin-left: 80px;
+        /* margin-left: 80px; */
     }
 
     .texto-1 {
@@ -672,7 +691,7 @@ footer p{
     }
 
     .btnComecar {
-        margin-left: 70px;
+        /* margin-left: 70px; */
     }
 }
 
@@ -687,7 +706,7 @@ footer p{
     }
 
     .btnComecar {
-        margin-left: 60px;
+        /* margin-left: 60px; */
     }
 
     .texto-1 {
@@ -720,7 +739,7 @@ footer p{
     }
 
     .btnComecar {
-        margin-left: 25px;
+        /* margin-left: 25px; */
         font-size: 14px;
     }
 }
@@ -735,7 +754,7 @@ footer p{
     }
 
     .btnComecar {
-        margin-left: 50px;
+        /* margin-left: 50px; */
     }
 
     .primeiro-conteudo {
@@ -764,7 +783,7 @@ footer p{
     }
 
     .btnComecar {
-        margin-left: 45px;
+        /* margin-left: 45px; */
     }
 
     .primeiro-conteudo {
@@ -794,7 +813,7 @@ footer p{
     }
 
     .btnComecar {
-        margin-left: 15px;
+        /* margin-left: 15px; */
         font-size: 14px;
     }
 

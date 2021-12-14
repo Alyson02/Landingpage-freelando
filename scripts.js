@@ -1,19 +1,19 @@
 function telaRegistrar() {
-    window.location.href = "telaRegistrar.html";
+    window.location.href = "erro.html";
 }
 
 function telaIndex() {
-    window.location.href = "telaLogin.php";
+    window.location.href = "erro.html";
 }
 
 function telaCadastroContratante() {
-    window.location.href = "CadastroContratante.php";
+    window.location.href = "erro.html";
 }
 
 function telaLogin() {
-    window.location.href = "telaLogin.php";
+    window.location.href = "erro.html";
 }
 
 function telaCadastroProfissional() {
-    window.location.href = "CadastroProfissional.php";
+    window.location.href = "erro.html";
 }
